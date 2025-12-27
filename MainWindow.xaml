@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="Книжный_магазин" Content="Книжный магазин" HorizontalAlignment="Left" Margin="200,15,0,0" VerticalAlignment="Top" Height="64" Width="340" FontFamily="Arial Rounded MT Bold" FontSize="36"/>
+        <Label x:Name="название" Content="Почитаем" HorizontalAlignment="Left" Margin="270,79,0,0" VerticalAlignment="Top" Height="65" Width="200" FontFamily="Arial Rounded MT Bold" FontSize="36" FontWeight="Bold" Background="#FFF9F9F9"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="280,173,0,0" VerticalAlignment="Top" Height="44" Width="180" Click="Button_Click"/>
+
     </Grid>
 </Window>
